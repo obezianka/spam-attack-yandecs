@@ -18,14 +18,12 @@ with open("txt.txt", "r" , encoding="UTF-8") as my_file:
   text = my_file.read()
 
 #________________________________________________________________________________________________________=
-x1 = "Броуууууууууу"
+x1 = input ("Каму:")
 text = text.replace("%friend_name%" , x1 )
-x2 ="Чичня"
+x2 = input ("Ат каго:")
 text = text.replace("%my_name%", x2)
 x3 = "polus101.ru"
 text = text.replace("%website%", x3)
-x1 = input ("Каму:")
-x2 = input ("Ат каго:")
 print(text)
 #_________________________________________________________________________________________________=
 letter= neletter + text
